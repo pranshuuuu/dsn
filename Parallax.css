@@ -1,0 +1,240 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior:smooth;
+    }
+    
+    body{
+        min-height: 100vh  ;
+        overflow-x: hidden;
+        background: black;
+    }
+    header{
+    position: absolute;
+    top: 0; 
+    Left: 0;
+    width: 100%; 
+    padding: 30px 100px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    align-items: center;
+    z-index: 10000;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    header .logo{
+    font-family:Shadows Into Light;
+    color: #fff; 
+    font-weight: 700; 
+    text-decoration: none; 
+    font-size: 2em;
+    letter-spacing: 2px;
+    }
+    header ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header ul li{
+        list-style: none;
+        margin-left: 20px;
+    }
+    header ul li a{
+        text-decoration: none;
+        padding: 6px 15px;
+        color: #fff;
+        border-radius: 20px;
+    }
+    header ul li a:hover,
+    header ul li a.active{
+        background-color: #fff;
+        color: #000;
+    }   
+
+    .start h1{
+        color: #fff;
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        font-family: 'Source Serif Pro', serif;
+        font-size: 12vh;
+    }
+    .start h2{
+        color: #fff;
+        position: absolute;
+        top: 80%;
+        left: 6.5%;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .start h3{
+        color: #fff;
+        position: absolute;
+        top: 140%;
+        left: 20%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 08vh;
+
+    }
+    .start h4{
+        left: 23.5%;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        top: 155%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2vh;
+
+    }
+    .start h5{
+        left: 30%;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        top: 215%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10vh;
+        background-color: #000;
+
+    }
+    //////////////////
+    ///////////////
+    //////////////
+    /////////////
+  
+    .card h1{
+        color: white;
+    }
+    .card h2{
+        color: white;
+    }
+     
+    .cardinfo h1{
+        color: #fff;
+     position: absolute;
+     top: 243.5%;
+     left: 26%;
+     font-size: 2vh;
+    }
+    
+.card {
+    box-shadow: 0 4px 8px 0 white;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  
+  .price {
+    color:white;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(41, 29, 29);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+//////////////
+//////////////
+//////////////
+////////////////
+.card1 h1{
+    color: white;
+}
+ 
+.cardinfo1 h1{
+    color: #fff;
+ position: absolute;
+ top: 301.5%;
+ left: 26%;
+ font-size: 2vh;
+}
+.card1 h2{
+    color: white;
+}
+
+.card1 {
+box-shadow: 0 4px 8px 0 white;
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: arial;
+margin-left: 5%;
+margin-top: 10%;
+}
+
+.price {
+color:white;
+font-size: 22px;
+}
+
+.card1 button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: rgb(41, 29, 29);
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+////////////
+/
+////
+////
+.card2 h1{
+    color: white;
+}
+ 
+.cardinfo2 h1{
+    color: #fff;
+ position: absolute;
+ top: 356.5%;
+ left: 26%;
+ font-size: 2vh;
+}
+.card2 h2{
+    color: white;
+}
+
+.card2 {
+box-shadow: 0 4px 8px 0 white;
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: arial;
+margin-left: 5%;
+margin-top: 10%;
+}
+
+.price {
+color:white;
+font-size: 22px;
+}
+
+.card2 button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: rgb(41, 29, 29);
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
